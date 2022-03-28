@@ -1,8 +1,8 @@
-import { Category } from "../../entities/Category";
+import { Category } from "../entities/Category";
 import {
   ICategoriesRepository,
   ICreateCategoryDTO,
-} from "../ICategoriesRepository";
+} from "../../../repositories/ICategoriesRepository";
 
 import { getRepository, Repository } from "typeorm";
 
